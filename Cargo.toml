@@ -1,0 +1,9 @@
+[package]
+name = "Study"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde_json = {version="1.0.99"}
+thirtyfour = "0.35"
+tokio = {version = "1", features = ["full"]}
